@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surpresa Especial</title>
+    <link rel="stylesheet" href="style.css"> <!-- Conectando ao CSS -->
+</head>
+<body>
+
+    <div class="container">
+        <h1>Bem-vindo(a)!</h1>
+        <p>Clique no botão abaixo para ver uma surpresa especial!</p>
+        <button id="revealButton">Clique Aqui</button>
+
+        <div id="proposal" class="hidden">
+            <h2>Você aceita se casar comigo? 💍</h2>
+            <button class="yes-button" onclick="responder('sim')">💖 Sim!</button>
+            <button class="no-button" onclick="responder('nao')">😢 Não...</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Conectando ao JavaScript -->
+</body>
+</html>
+
